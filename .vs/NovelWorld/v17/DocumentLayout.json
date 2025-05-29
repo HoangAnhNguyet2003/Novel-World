@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bop\\Desktop\\Github\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|c:\\users\\bop\\desktop\\github\\backend\\novelworld\\controllers\\product\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|solutionrelative:novelworld\\controllers\\product\\chaptercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|c:\\users\\bop\\desktop\\github\\backend\\novelworld\\controllers\\product\\novelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|solutionrelative:novelworld\\controllers\\product\\novelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|c:\\users\\bop\\desktop\\github\\backend\\novelworld\\controllers\\product\\favoritenovelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|solutionrelative:novelworld\\controllers\\product\\favoritenovelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|c:\\users\\bop\\desktop\\github\\backend\\novelworld\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|solutionrelative:novelworld\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Migrations\\20250525144003_InitalCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NovelWorld\\Migrations\\20250525144003_InitalCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|c:\\users\\bop\\desktop\\github\\backend\\novelworld\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A800C1D7-2784-458C-A4F7-191725C91B0A}|NovelWorld\\NovelWorld.csproj|solutionrelative:novelworld\\dbcontexts\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NovelController.cs",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\NovelController.cs",
+              "RelativeDocumentMoniker": "NovelWorld\\Controllers\\Product\\NovelController.cs",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\NovelController.cs",
+              "RelativeToolTip": "NovelWorld\\Controllers\\Product\\NovelController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAswGAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:44:27.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FavoriteNovelController.cs",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\FavoriteNovelController.cs",
+              "RelativeDocumentMoniker": "NovelWorld\\Controllers\\Product\\FavoriteNovelController.cs",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\FavoriteNovelController.cs",
+              "RelativeToolTip": "NovelWorld\\Controllers\\Product\\FavoriteNovelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:44:15.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChapterController.cs",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\ChapterController.cs",
+              "RelativeDocumentMoniker": "NovelWorld\\Controllers\\Product\\ChapterController.cs",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Controllers\\Product\\ChapterController.cs",
+              "RelativeToolTip": "NovelWorld\\Controllers\\Product\\ChapterController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowD4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:42:34.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\appsettings.json",
+              "RelativeDocumentMoniker": "NovelWorld\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\appsettings.json",
+              "RelativeToolTip": "NovelWorld\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-25T14:40:41.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250525144003_InitalCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Migrations\\20250525144003_InitalCreate.cs",
+              "RelativeDocumentMoniker": "NovelWorld\\Migrations\\20250525144003_InitalCreate.cs",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Migrations\\20250525144003_InitalCreate.cs",
+              "RelativeToolTip": "NovelWorld\\Migrations\\20250525144003_InitalCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:40:03.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Dbcontexts\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "NovelWorld\\Dbcontexts\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Bop\\Desktop\\Github\\backend\\NovelWorld\\Dbcontexts\\ApplicationDbContext.cs",
+              "RelativeToolTip": "NovelWorld\\Dbcontexts\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:37:45.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

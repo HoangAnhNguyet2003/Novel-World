@@ -1,0 +1,559 @@
+[
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.AuthController",
+    "Method": "CreateAccountAsync",
+    "RelativePath": "api/Auth/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "NovelWorld.Dtos.Auth.AuthDtos.CreateAccountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.AuthController",
+    "Method": "EmailValidAsync",
+    "RelativePath": "api/Auth/email-valid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "NovelWorld.Dtos.Auth.AuthDtos.EmailValidDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "NovelWorld.Dtos.Auth.AuthDtos.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.ChapterController",
+    "Method": "AddChapter",
+    "RelativePath": "api/Chapter/add-chapter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ChapNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChapTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChapContent",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "NovelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.ChapterController",
+    "Method": "DeleteChapter",
+    "RelativePath": "api/Chapter/delete-chapter/{chapId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.ChapterController",
+    "Method": "GetChapterById",
+    "RelativePath": "api/Chapter/get-chapter/{chapId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chapId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.ChapterController",
+    "Method": "GetChaptersByNovelId",
+    "RelativePath": "api/Chapter/get-chapters-by-novel/{novelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.ChapterController",
+    "Method": "UpdateChapter",
+    "RelativePath": "api/Chapter/update-chapter",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ChapId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChapNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChapTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ChapContent",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.FavoriteNovelController",
+    "Method": "AddFavoriteNovel",
+    "RelativePath": "api/FavoriteNovel/add/{novelId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.FavoriteNovelController",
+    "Method": "IsFavoriteNovel",
+    "RelativePath": "api/FavoriteNovel/is-favorite/{novelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.FavoriteNovelController",
+    "Method": "RemoveFavoriteNovel",
+    "RelativePath": "api/FavoriteNovel/remove/{novelId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "FollowUser",
+    "RelativePath": "api/Follow/follow/{targetUserId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "targetUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "GetFollowedAuthors",
+    "RelativePath": "api/Follow/get-followed-authors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "GetFollowers",
+    "RelativePath": "api/Follow/get-followers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "GetUnfollowedAuthors",
+    "RelativePath": "api/Follow/get-unfollowed-authors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "IsFollowingUser",
+    "RelativePath": "api/Follow/is-following/{targetUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "targetUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.FollowController",
+    "Method": "UnfollowUser",
+    "RelativePath": "api/Follow/unfollow/{targetUserId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "targetUserId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "CreateNovel",
+    "RelativePath": "api/Novel/add-novel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "DeleteNovel",
+    "RelativePath": "api/Novel/delete-novel/{novelId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetAllNovel",
+    "RelativePath": "api/Novel/get-all-novels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetArtist",
+    "RelativePath": "api/Novel/get-artist/{novelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetFavoriteNovels",
+    "RelativePath": "api/Novel/get-favorite-novels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetMyNovels",
+    "RelativePath": "api/Novel/get-my-novels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetNovelsFromFollowing",
+    "RelativePath": "api/Novel/get-novel-from-following",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetNovelsFromNonFollowing",
+    "RelativePath": "api/Novel/get-novel-from-nonfollowing",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetNovel",
+    "RelativePath": "api/Novel/get-novel/{novelId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetNovelsByUserId",
+    "RelativePath": "api/Novel/get-novels-by-user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "GetUnfavoritedNovels",
+    "RelativePath": "api/Novel/get-unfavorited-novels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Product.NovelController",
+    "Method": "UpdateNovel",
+    "RelativePath": "api/Novel/update-novel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Type",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.UserController",
+    "Method": "CreateUserAsync",
+    "RelativePath": "api/User/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DisplayName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BirthYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.UserController",
+    "Method": "DeleteUserAsync",
+    "RelativePath": "api/User/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.UserController",
+    "Method": "GetUserAsync",
+    "RelativePath": "api/User/get-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NovelWorld.Controllers.Auth.UserController",
+    "Method": "UpdateUserAsync",
+    "RelativePath": "api/User/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DisplayName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BirthYear",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
